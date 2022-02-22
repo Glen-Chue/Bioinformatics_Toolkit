@@ -50,7 +50,6 @@ def translate_seq(seq, init_pos=0):
     """Translates a DNA sequence into an aminoacid sequence"""
     return [DNA_Codons[seq[pos:pos + 3]] for pos in range(init_pos, len(seq) - 2, 3)]
 
-
 def codon_usage(seq, aminoacid):
     """Provides the frequency of each codon encoding a given aminoacid in a DNA sequence"""
     tmpList = []
