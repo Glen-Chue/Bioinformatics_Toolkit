@@ -45,4 +45,4 @@ def gc_content_subsec(seq, k=20):
         res.append(gc_content(subseq))
     return res
 
-#hi
+#hi there
