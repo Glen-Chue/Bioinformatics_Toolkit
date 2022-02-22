@@ -1,5 +1,6 @@
 # DNA Toolkit file
 import collections
+from collections import Counter
 from structures import *
 
 # Check the sequence to make sure it is a DNA String
