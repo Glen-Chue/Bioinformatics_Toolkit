@@ -9,7 +9,7 @@ class bio_seq:
         self.label = label
         self.seq_type = seq_type
         self.is_valid = self.__validate()
-        assert self.is_valid, f"Provided data does not seem to be a corret {self.seq_type} sequence"
+        assert self.is_valid, f"Provided data does not seem to be a correct {self.seq_type} sequence"
 
     # DNA Toolkit functions:
     def __validate(self): #private method
@@ -30,4 +30,5 @@ class bio_seq:
                        for x in range(length)])
         self.__init__(seq, seq_type, "Randomly generated sequence")
 
+    
 
