@@ -32,3 +32,5 @@ print('[9] + Reading_frames:')
 for frame in gen_reading_frames(DNAStr):
     print(frame)
 
+
+
