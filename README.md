@@ -1,3 +1,3 @@
 # Bioinformatics_Toolkit
-My First Bioinformatics Project defining Python Functions that can Identify Protein Structures from DNA and RNA Sequences.
+My First Bioinformatics Project defining Python Functions that identifies possible Protein sequences from DNA and RNA Sequences.
 
