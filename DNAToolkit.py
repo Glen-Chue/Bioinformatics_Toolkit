@@ -99,9 +99,9 @@ def all_proteins_from_orfs(seq, startReadPos=0, endReadPos=0, ordered=False):
     """Protine Search DB: https://www.ncbi.nlm.nih.gov/nuccore/NM_001185097.2"""
     """API can be used to pull protein info"""
     if endReadPos > startReadPos: #if we only want only a subset from the sequence
-        rfs = gen_reading_frames(seq[startRead: endRead])
+        rfs = gen_reading_frames(seq[startReadPos: endReadPos])
     else:
-        rfs = gen_reading_frames(seq)
+        rfs = gen_reading_frames(seq) #If start and end position not specified then the entire sequence is processed
 
     res = []
     for rf in rfs:
