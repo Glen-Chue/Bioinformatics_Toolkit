@@ -31,6 +31,9 @@ print(
 print('[9] + Reading_frames:')
 for frame in gen_reading_frames(DNAStr):
     print(frame)
+print('\n[10] + All prots in 6 open reading frames:')
+for prot in all_proteins_from_orfs(NM_000207_3, 0, 0, True):
+    print(f'{prot}')
 
 
 

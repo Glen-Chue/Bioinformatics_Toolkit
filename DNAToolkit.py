@@ -110,7 +110,7 @@ def all_proteins_from_orfs(seq, startReadPos=0, endReadPos=0, ordered=False):
             res.append(p)
 
     if ordered:
-        return sorted(res, key=len, reverse=True) #sort by length of protein
+        return sorted(res, key=len, reverse=True) #sort by length of protein (longest to shortest)
     return res
 
 
